@@ -183,7 +183,7 @@
               <li data-filter=".filter-Dimsum">Dim Sum</li>
               <li data-filter=".filter-Appetizer">Appetizer</li>
               <li data-filter=".filter-Soup">Soup</li>
-			  <li data-filter=".filter-Party">Party</li>
+			  <li data-filter=".filter-Seafood">Seafood</li>
 			  <li data-filter=".filter-Pork_Beef">Pork & Beef</li>
 			  <li data-filter=".filter-Chicken_Duck">Chicken & Duck</li>
 			  <li data-filter=".filter-Hot_Pot">Hot Pot</li>
@@ -191,6 +191,7 @@
 			  <li data-filter=".filter-Rice_Noodle">Rice & Noodle</li>
 			  <li data-filter=".filter-Soft_Drinks">Soft Drinks</li>
 			  <li data-filter=".filter-Snacks">Snacks</li>
+			  <li data-filter=".filter-Party">Party</li>
             </ul>
           </div>
         </div>
@@ -200,7 +201,7 @@
 		<div class="Dimsumclass"></div> 
 		<div class="Appetizerclass"></div> 
 		<div class="Soupclass"></div> 
-		<div class="Partyclass"></div> 
+		<div class="Seafoodclass"></div>
 		<div class="Pork_Beefclass"></div> 
 		<div class="Chicken_Duckclass"></div> 
 		<div class="Hot_Potclass"></div> 
@@ -208,6 +209,7 @@
 		<div class="Rice_Noodleclass"></div> 
 		<div class="Soft_Drinksclass"></div> 
 		<div class="Snacksclass"></div>  
+		<div class="Partyclass"></div> 
 		<script>
 		var request = new XMLHttpRequest();
 		var Dimsum;
@@ -345,6 +347,7 @@
 								obj.Party[i].Price+'</span></div><div class="menu-ingredients">'+
 								desc+'</div></div>');
 				$('.Partyclass').append(Party);	
+				}
 		
 
 			
