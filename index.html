@@ -254,15 +254,15 @@
 								desc+'</div></div>');
 				$('.Soupclass').append(Soup);	
 			}			
-			for (var i = 0; i < obj.Party.length; i++) {
-				var desc = obj.Party[i].Desc
-				if (obj.Party[i].Desc){desc = obj.Party[i].Desc}else{desc = ''}
-				Party = $('.Partyclass');
-				Party.append('<div class="col-lg-6 menu-item filter-Party"><div class="menu-content"><a href="#">'+
-								obj.Party[i].Name+'</a><span>'+
-								obj.Party[i].Price+'</span></div><div class="menu-ingredients">'+
+			for (var i = 0; i < obj.Seafood.length; i++) {
+				var desc = obj.Seafood[i].Desc
+				if (obj.Seafood[i].Desc){desc = obj.Seafood[i].Desc}else{desc = ''}
+				Seafood = $('.Seafoodclass');
+				Seafood.append('<div class="col-lg-6 menu-item filter-Seafood"><div class="menu-content"><a href="#">'+
+								obj.Seafood[i].Name+'</a><span>'+
+								obj.Seafood[i].Price+'</span></div><div class="menu-ingredients">'+
 								desc+'</div></div>');
-				$('.Partyclass').append(Party);	
+				$('.Seafoodclass').append(Seafood);	
 			}	
 			for (var i = 0; i < obj.Pork_Beef.length; i++) {
 				var desc = obj.Pork_Beef[i].Desc
@@ -336,6 +336,15 @@
 								desc+'</div></div>');
 				$('.Hot_Potclass').append(Hot_Pot);	
 			}
+			for (var i = 0; i < obj.Party.length; i++) {
+				var desc = obj.Party[i].Desc
+				if (obj.Party[i].Desc){desc = obj.Party[i].Desc}else{desc = ''}
+				Party = $('.Partyclass');
+				Party.append('<div class="col-lg-6 menu-item filter-Party"><div class="menu-content"><a href="#">'+
+								obj.Party[i].Name+'</a><span>'+
+								obj.Party[i].Price+'</span></div><div class="menu-ingredients">'+
+								desc+'</div></div>');
+				$('.Partyclass').append(Party);	
 		
 
 			
